@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.statistics {
+  margin: 80px;
+  width: 270px;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid gainsboro;
+  font-family: 'Roboto';
+}
+.title {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #1f3349;
+}
+.statList {
+  height: 60px;
+  list-style: none;
+  display: flex;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.label {
+  padding-bottom: 5px;
+}
+.percentage {
+  font-size: 18px;
+  font-weight: 700;
+}
